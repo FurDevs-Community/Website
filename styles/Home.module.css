@@ -32,5 +32,6 @@
 
 .features img{
     width: 225px;
+    margin: 0 0 15px 0;
     border-radius: 50%;
 }

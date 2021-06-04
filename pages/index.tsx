@@ -29,20 +29,16 @@ export default function Home() {
         <h2 className={`center`}>Features</h2>
         <div className={`${styles.features}`}>
           <div>
-            <img src="/images/logo.png" alt="" />
-            <h3>Some Cool Feature</h3>
+            <img src="https://discord.com/assets/509dd485f6269e2521955120f3e8f0ef.svg" alt="" />
+            <h3>Support in MANY programming languages and topics</h3>
           </div>
           <div>
-            <img src="/images/logo.png" alt="" />
-            <h3>Some Cool Feature</h3>
+            <img src="https://discord.com/assets/202dcb7b0453a308167e21fc7a3a06d3.svg" alt="" />
+            <h3>Learn how to program and Build your dream projects!</h3>
           </div>
           <div>
-            <img src="/images/logo.png" alt="" />
-            <h3>Some Cool Feature</h3>
-          </div>
-          <div>
-            <img src="/images/logo.png" alt="" />
-            <h3>Some Cool Feature</h3>
+            <img src="https://discord.com/assets/aff6d39f4947f22f042e67ac21a9dc7a.svg" alt="" />
+            <h3>Other topics unrelated to programming!</h3>
           </div>
         </div>
         </div>
