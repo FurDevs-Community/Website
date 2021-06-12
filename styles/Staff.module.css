@@ -16,15 +16,17 @@
     margin: 15px
 }
 .staffinner {
-    position:absolute;
-    width:100%;
+    margin-top:0px;
+    display: block;
     height:100%;
-    margin-left: auto;
-    margin-right: auto;
+    
+    border-radius: 50%;
 }
 .staffouter {
+    display: flex;
+    justify-content: center ;
+    margin-left: auto;
+    margin-right: auto;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    
 }
