@@ -12,7 +12,9 @@ export default function Staff({
   return (
     <div className={styles.staffCard}>
       <h3>{staffName}</h3>
-      <img src={imageURL} alt={`${staffName}'s Profile Picture`} />
+      <div class="staffouter">
+        <img class="staffinner" src={imageURL} alt={`${staffName}'s Profile Picture`} />
+      </div>
       <h4>{role}</h4>
       {socials ? (
         socials.map((social) => (
