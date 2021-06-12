@@ -1,0 +1,23 @@
+.staffCard{
+    margin: 50px 25px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.staffCard img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.staffCard h3{
+    font-size: 35px;
+}
+
+.staffCard h4{
+    font-size: 25px;
+}
+
+.staffCard * {
+    margin: 15px
+}
