@@ -12,8 +12,8 @@ export default function Staff({
   return (
     <div className={styles.staffCard}>
       <h3>{staffName}</h3>
-      <div class="staffouter">
-        <img class="staffinner" src={imageURL} alt={`${staffName}'s Profile Picture`} />
+      <div className="staffouter">
+        <img className="staffinner" src={imageURL} alt={`${staffName}'s Profile Picture`} />
       </div>
       <h4>{role}</h4>
       {socials ? (
