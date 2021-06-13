@@ -20,6 +20,11 @@
     justify-content: center;
 }
 
+.buttons ul li a {
+    color: white;
+    cursor: pointer;
+}
+
 .buttons div button {
     padding: 10px;
     border: none;
@@ -40,4 +45,10 @@
 .navbar .brand {
     justify-content: center;
     align-items: center;
+    display: flex;
+}
+
+
+.brand h1{
+    cursor: pointer;
 }

@@ -9,7 +9,11 @@ export default function Footer({}: Props): ReactElement {
             <div>
                 <h3 className="center">FurDevs</h3>
                 <div>
-                    <button className={`grow ${styles.btn}`}>Join Our Server</button>
+                    <a href="https://discord.gg/RkMCWWFSBg">
+                        <button className={`grow ${styles.btn}`}>
+                            Join Our Server
+                        </button>
+                    </a>
                 </div>
             </div>
             <div>
