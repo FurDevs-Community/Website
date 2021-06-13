@@ -1,7 +1,6 @@
 import React, { ReactElement } from "react";
 import { IFeatures } from "./Features";
-
-interface Props {}
+import styles from './../styles/Features.module.css'
 
 export default function Feature({
     description,
@@ -9,7 +8,7 @@ export default function Feature({
     title,
 }: IFeatures): ReactElement {
     return (
-        <div>
+        <div className={styles.feature}>
             <i className={icon}></i>
             <h3>{title}</h3>
             <p>{description}</p>

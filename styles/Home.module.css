@@ -19,6 +19,10 @@
     margin: 250px 0 0 0;
 }
 
+.home section h2{
+  font-size: 35px;
+}
+
 .aboutUs div h2 {
     font-size: 30px;
 }

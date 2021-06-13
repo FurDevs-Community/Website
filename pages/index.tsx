@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import { featuresList } from "../components/Features";
 import Staff from "../components/Staff";
 import { staffTeam } from "../components/StaffTeam";
 import styles from "../styles/Home.module.css";
+import Feature from "../components/Feature";
 
 export default function Home() {
     return (
@@ -11,9 +13,9 @@ export default function Home() {
                 <h1>FurDevs</h1>
                 <p>
                     FurDevs is a furry community that revolves around technology
-                    and programming. No matter if you're new to coding or a
-                    professional or even part of the Furry Community or not
-                    Everyone is welcomed.{" "}
+                    and programming. Whether you are an experienced programmer,
+                    just learning, or even part of the furry community, everyone
+                    is welcomed.{" "}
                 </p>
                 <div className={styles.buttons}>
                     <button className={`grow`}>Learn More</button>
@@ -39,7 +41,15 @@ export default function Home() {
             </section>
             <section>
                 <h2 className={`center`}>Features</h2>
-                <div className={`${styles.features}`}></div>
+                <div className={`${styles.features}`}>
+                    {featuresList.map((feature) => (
+                        <Feature
+                            description={feature.description}
+                            icon={feature.icon}
+                            title={feature.title}
+                        />
+                    ))}
+                </div>
             </section>
         </div>
     );

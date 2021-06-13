@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
+.footer div h3 {
+    text-align: center;
+}
+
+.footer div img {
+    width: 100px;
+}
+
+.socials {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials div i {
+    color: white;
+    margin: 15px 10px 0;
+    font-size: 35px;
+}
+
+.btn {
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(151, 6, 255);
+    color: white;
+}
