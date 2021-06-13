@@ -1,42 +1,43 @@
-.navbar .brand img{
+.navbar .brand img {
     width: 75px;
     margin: 0 10px;
     border-radius: 50%;
 }
 
-.navbar{
+.navbar {
     justify-content: space-between;
     align-items: center;
-    margin: 10px 20px
+    margin: 10px 20px;
 }
 
-.buttons{
+.buttons {
     align-items: center;
     justify-content: center;
 }
 
-.buttons ul{
+.buttons ul {
     align-items: center;
     justify-content: center;
 }
 
-.buttons div button{
+.buttons div button {
     padding: 10px;
     border: none;
     border-radius: 25px;
     background-color: rgb(151, 6, 255);
-    color: white        
+    color: white;
 }
 
-.buttons ul li, .buttons div button  {
+.buttons ul li,
+.buttons div button {
     margin: 0 20px 0 10px;
 }
 
-.buttons ul li{
+.buttons ul li {
     list-style-type: none;
 }
 
-.navbar .brand{
+.navbar .brand {
     justify-content: center;
     align-items: center;
 }

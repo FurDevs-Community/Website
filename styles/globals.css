@@ -1,24 +1,31 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(55, 55, 55);
-  color: white;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(55, 55, 55);
+    color: white;
 }
 
 .flex {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .container {
-  margin: 0 75px
+    margin: 0 75px;
 }
 
-.center{
-  text-align: center;
+.center {
+    text-align: center;
+}
+
+.grow {
+    transition: all 0.3s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.5);
 }

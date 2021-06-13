@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './../styles/Navbar.module.css'
+import React from "react";
+import styles from "./../styles/Navbar.module.css";
 
 export default function Navbar() {
     return (
@@ -13,14 +13,15 @@ export default function Navbar() {
                     <li>Home</li>
                     <li>About</li>
                     <li>Projects</li>
+                    <li>Partners</li>
                     <li>Rules</li>
                     {/**TODO: Make it display either Login/Profile */}
                     <li>Profile</li>
                 </ul>
                 <div>
-                    <button>Join Our Server</button>
+                    <button className={`grow`}>Join Our Server</button>
                 </div>
             </div>
         </div>
-    )
+    );
 }
