@@ -7,31 +7,21 @@ import Feature from "../components/Feature";
 import { useEffect, useState } from "react";
 import { api } from "../settings";
 import moment from "moment/moment";
+import { members } from "../oneYearSpecial";
+
 
 export default function Secret() {
-    const [avatars, setMemberAvatars] = useState(null);
-    const [loading, setLoading] = useState(true)
-    useEffect(() => {
-        const fetchAvatars = async () => {
-            fetch(`${api}/latest/fdevs/oneYearSpecial`).then(async res => {
-                setMemberAvatars(await res.json())
-            })
-        }
-        fetchAvatars().then(() => {
-            setLoading(false)
-        })
-    }, [])
     return (
         <div className={styles.main}>
             <h1>FurDevs 1 Year Anniversary!</h1>
             <div className={styles.bigPicture}>
-            {!loading && avatars ? avatars.membersAvatars.map(member => (
+            {members.membersAvatars.map(member => (
                 <div>
-                    <img src={member.avatar} alt="" />
+                    <img src={member.avatar ? member.avatar : "https://play-lh.googleusercontent.com/hjJxprwkClyF4b6YY6zIt2eXZpn7eh68y5EWdiBmBqVz8Z0KiuFIf5KMTWJG8j5Lzio"} alt="" />
                     <h2>{member.name}</h2>
                     <h3>{moment(member.date).format("LLLL")}</h3>
                 </div>
-            )) : (<h1>A</h1>)}
+            ))}
             </div>
 
         </div>
