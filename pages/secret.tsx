@@ -22,8 +22,7 @@ export default function Secret() {
         })
     }, [])
     return (
-        <div>
-
+        <div className={styles.main}>
             <h1>FurDevs 1 Year Anniversary!</h1>
             <div className={styles.bigPicture}>
             {!loading && avatars ? avatars.membersAvatars.map(member => (
