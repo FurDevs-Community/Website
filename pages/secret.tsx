@@ -14,6 +14,7 @@ export default function Secret() {
     return (
         <div className={styles.main}>
             <h1>FurDevs 1 Year Anniversary!</h1>
+            <p>From our First Member, to our Latest member we want to thank y'all for making FurDevs awesome from day one, take a look at where you're at and see how the server grown.</p>
             <div className={styles.bigPicture}>
             {members.membersAvatars.map(member => (
                 <div>
