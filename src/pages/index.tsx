@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import { featuresList } from "../components/Features";
 import Staff from "../components/Staff";
 import styles from "../styles/Home.module.css";
@@ -9,17 +7,17 @@ import { api } from "../settings";
 
 export default function Home() {
     const [staffTeam, setStaffTeam] = useState(null);
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
         const fetchStaffTeam = async () => {
-            fetch(`${api}/latest/fdevs/staffMembers`).then(async res => {
-                setStaffTeam(await res.json())
-            })
-        }
+            fetch(`${api}/latest/fdevs/staffMembers`).then(async (res) => {
+                setStaffTeam(await res.json());
+            });
+        };
         fetchStaffTeam().then(() => {
-            setLoading(false)
-        })
-    }, [])
+            setLoading(false);
+        });
+    }, []);
     return (
         <div className={styles.home}>
             <section className={styles.heading}>
@@ -38,16 +36,20 @@ export default function Home() {
             <section className={styles.parentStaffTeam}>
                 <h2 className={`center`}>Our Staff Team</h2>
                 <div className={`${styles.staffTeam}`}>
-                    {!loading && staffTeam ? staffTeam.staffMembers.map(
-                        ({ color, avatar, position, username }) => (
-                            <Staff
-                                staffName={username}
-                                color={color}
-                                imageURL={avatar}
-                                role={position}
-                            />
+                    {!loading && staffTeam ? (
+                        staffTeam.staffMembers.map(
+                            ({ color, avatar, position, username }) => (
+                                <Staff
+                                    staffName={username}
+                                    color={color}
+                                    imageURL={avatar}
+                                    role={position}
+                                />
+                            )
                         )
-                    ): (<h1>Loading</h1>)}
+                    ) : (
+                        <h1>Loading</h1>
+                    )}
                 </div>
             </section>
             <section>
