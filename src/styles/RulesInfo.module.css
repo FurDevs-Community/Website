@@ -1,0 +1,25 @@
+.rulesInfo section {
+    margin: 50px 245px;
+}
+
+.rulesInfo section h2 {
+    font-size: 48px;
+    text-align: left;
+}
+
+.rulesInfo section p em {
+    color: #bdbdbd;
+}
+
+.rulesInfo section div {
+    margin: 25px 0;
+}
+
+.rulesInfo section div p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.rulesInfo section div div {
+    margin: 0 55px;
+}
