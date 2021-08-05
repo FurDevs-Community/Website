@@ -27,6 +27,14 @@
     cursor: pointer;
 }
 
+.buttons ul li:hover {
+    text-decoration: underline;
+}
+
+.buttons ul li a:hover {
+    color: #2ca0d3;
+}
+
 .buttons div button {
     border: none;
     border-radius: 25px;

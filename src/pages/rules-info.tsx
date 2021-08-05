@@ -1,10 +1,4 @@
-import { featuresList } from "../components/Featuring/Features";
-import Staff from "../components/Staff/Staff";
-import styles from "./../styles/RulesInfo.module.css";
-import Feature from "../components/Featuring/Feature";
-import { useEffect, useState } from "react";
-import { api } from "../settings";
-import Typings from "../components/Utils/Typings";
+import styles from "./../styles/RulesInfo.module.scss";
 
 export default function RulesInfo() {
     return (

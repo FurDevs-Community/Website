@@ -1,0 +1,26 @@
+.projectCard {
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: #c4c4c4;
+    color: black;
+    img {
+        border-radius: 50%;
+        width: 150px;
+    }
+    p {
+        color: #696969;
+    }
+
+    button {
+        padding: 10px 100px;
+        font-size: 18px;
+        border: none;
+        background-color: #2ca0d3;
+        color: white;
+    }
+
+    * {
+        margin: 10px;
+    }
+}
