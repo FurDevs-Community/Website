@@ -13,6 +13,10 @@ export default function CommunityProjects() {
                     your Projects and feedbacks of the projects from members
                     within the server.
                 </p>
+                <div className={styles.alert}>
+                    <p>Have a Community Project you would like to display?</p>
+                    <button>Login with Discord</button>
+                </div>
             </section>
             <section className={styles.projects}>
                 <ProjectCard />
