@@ -10,65 +10,25 @@ export default function RulesInfo() {
                 </p>
                 <div>
                     <p>
-                        1. You must follow the discord terms of service. Further
-                        action WILL BE TAKEN
+                        1. You must follow the Discord Terms of Service. Further action <strong>WILL BE TAKEN</strong>
                     </p>
                     <p>2 - Be Civil and Respect everyone in this community </p>
                     <div>
-                        <p>2.1 - No toxicity </p>
-                        <p>
-                            2.2 - Attacking a member based on their appearance
-                            or identity will result in a Ban & Further Actions
-                            will be taken.
-                        </p>
-                        <p>
-                            2.3 - Blackmailing, Dox threats, threats are not
-                            allowed
-                        </p>
-                        <p> 2.4 - Don't start Drama </p>
-                        <p>
-                            2.5 - Any arguments must be taken in you're dms not
-                            in here
-                        </p>
-                        <p> 2.6 - Please respects other privacy</p>
+                        <p>2.1 - No toxicity (We're strictly enforcing this rule!)</p>
+                        <p>2.2 - Attacking a member based on their appearance/indenity is NOT ALLOWED</p>
+                        <p>2.3 - Blackmailing, Dox threats, threats are not allowed</p>
+                        <p>2.4 - Don't start Drama </p>
+                        <p>2.5 - Any arguments must be taken in you're dms not in here</p>
+                        <p>2.6 - Please respects other privacy</p>
                     </div>
                     <p>3 - Post things in their respective channel </p>
-                    <p>
-                        4 - Spamming, Flooding the chat, Shitposting, Userbots,
-                        Masspinging is not allowed
-                    </p>
-                    <p>
-                        5 - Advertising is not allowed (If you want to partner
-                        with FurDevs contact staff)
-                    </p>
-                    <p>
-                        6 - KEEP EVERYTHING SFW This also includes being
-                        suggestive and mentioning a brand/website that's
-                        considered NSFW
-                    </p>
-                    <p>
-                        7 - Please make sure you provide screenshots, snippets
-                        of your code or a pastebin when asking questions
-                    </p>
-                    <p>8 - Use Common Sense</p>
-                    <p>
-                        9 - Don't beg for someone to help you out in programming
-                        and please be patient
-                    </p>
-                    <p>
-                        10 - There should be no discussions about Politics nor
-                        Venting If you would like to talk about these topics
-                        please take it to the DMs
-                    </p>
-                    <p>
-                        11 - You can get punished by any staff member if you
-                        seem suspicious as of part of a raid or troll
-                    </p>
-                    <p>12 - No Spoonfeeding, and don't be a Help Vampire</p>
-                    <p>
-                        13 - Admins and Staff doesn't wanna deal will shit so
-                        please do less shit
-                    </p>
+                    <p>4 - Spamming, Flooding the chat, Shitposting, Userbots, Masspinging is not allowed</p>
+                    <p>5 - Advertising is not allowed (If you want to partner with FurDevs contact staff)</p>
+                    <p>6 -Keep Topics SFW Anything Suggestive/NSFW will be punished accordingly</p>
+                    <p>7 - Use Common Sense</p>
+                    <p>8 - Don't beg for someone to help you out in programming and please be patient</p>
+                    <p>9 - Venting, Sensitive Topics such as Politics, Religion is not allowed</p>
+                    <p>10 - No Spoonfeeding, and don't be a Help Vampire</p>
                 </div>
             </section>
             <section>
@@ -83,20 +43,16 @@ export default function RulesInfo() {
                         (exceptions can be made)
                     </p>
                     <p>
-                        - Your server shouldn't more than{" "}
-                        <strong>4 servers monthly</strong>
+                        - Your server shouldn't more than <strong>4 servers monthly</strong>
                     </p>
-                    <p>
-                        - NSFW Channels must be gated with proper verification
-                    </p>
+                    <p>- NSFW Channels must be gated with proper verification</p>
                 </div>
             </section>
             <section>
                 <h2>Supporting FurDevs</h2>
                 <h3>
-                    As we're growing to be a big programming server and a furry
-                    server with something unique we will appreciate what you can
-                    do.
+                    As we're growing to be a big programming server and a furry server with something unique we will
+                    appreciate what you can do.
                 </h3>
                 <div>
                     <p>- Bumping the Server</p>

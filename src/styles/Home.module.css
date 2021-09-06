@@ -26,6 +26,11 @@
     background-color: #2ca0d3;
     color: white;
     font-size: 20px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
 
 .home section div {

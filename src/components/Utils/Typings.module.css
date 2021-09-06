@@ -1,6 +1,5 @@
 .cursor {
     animation: fadeInOut 1s infinite;
-    font-size: 25px;
 }
 
 @keyframes fadeInOut {

@@ -26,10 +26,7 @@ export default function Home() {
                     <h2>A Furry/Programming Community</h2>
                     <p>
                         <Typings
-                            text="FurDevs is a furry community that revolves around
-                        technology and programming. Whether you are an
-                        experienced programmer, just learning, or even part of
-                        the furry community, everyone is welcomed."
+                            text="FurDevs is a Technology/Programming Community where we discuss about Technology as well as Programming. Our goal is to help make your project whether it's your first or your million-th project. We're willing to help you out as well as bring long time friendships with others in the server."
                             ms={75}
                         />
                     </p>
@@ -44,6 +41,7 @@ export default function Home() {
                         <i className="fas fa-cogs" />
                         <i className="fab fa-js" />
                         <i className="fab fa-python" />
+                        <i className="fab fa-rust" />
                     </div>
                 </div>
                 <div>
