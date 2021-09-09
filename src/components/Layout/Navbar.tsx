@@ -32,18 +32,11 @@ export default function Navbar() {
                             <a>Staff Team</a>
                         </li>
                     </Link>
-                    <Link href="/partners">
-                        <li>
-                            <a>Partners</a>
-                        </li>
-                    </Link>
                     {/**TODO: Make it display either Login/Profile */}
                 </ul>
                 <div>
                     <Link href="https://discord.gg/RkMCWWFSBg">
-                        <button className={`grow  ${styles.joinButton}`}>
-                            Join
-                        </button>
+                        <button className={`grow  ${styles.joinButton}`}>Join</button>
                     </Link>
                 </div>
             </div>

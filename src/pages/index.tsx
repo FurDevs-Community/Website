@@ -1,6 +1,6 @@
 import { featuresList } from "../components/Featuring/Features";
 import Staff from "../components/Staff/Staff";
-import styles from "./../styles/Home.module.css";
+import styles from "./../styles/Home.module.scss";
 import Feature from "../components/Featuring/Feature";
 import { useEffect, useState } from "react";
 import { api } from "../settings";
