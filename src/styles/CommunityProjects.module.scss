@@ -1,11 +1,11 @@
 .communityProjects {
-    margin: 100px;
+    margin: 50px 100px;
     .heading {
-        margin: 50px 0;
+        text-align: center;
+        margin: 50px 0px;
         h2 {
             font-size: 36px;
             font-weight: 400;
-            text-align: left;
         }
         p {
             margin: 5px 150px 0 0;
@@ -15,24 +15,8 @@
         display: flex;
         align-items: center;
         flex-direction: row;
-        // justify-content: space-around;
         text-align: center;
         flex-wrap: wrap;
-    }
-    .alert{
-        display: flex;
-        margin: auto;
-        padding: 20px;
-        background-color: white;
-        color: black;
         justify-content: center;
-        align-items: center;
-        button{
-            background-color: rgb(49, 96, 226);
-            border: none;
-            padding: 10px;
-            font-size: large;
-            color: white;
-        }
     }
 }
