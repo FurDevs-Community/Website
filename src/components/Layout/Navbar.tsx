@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "./../styles/Navbar.module.css";
+import styles from "./Navbar.module.css";
 import Link from "next/link";
 
 export default function Navbar() {
     return (
         <div className={`flex ${styles.navbar}`}>
             <div className={`flex ${styles.brand}`}>
-                    <img src="/images/logo.png" alt="FurDevs Logo" />
                 <Link href="/">
                     <h1>FurDevs</h1>
                 </Link>
@@ -18,14 +17,19 @@ export default function Navbar() {
                             <a>Home</a>
                         </li>
                     </Link>
-                    <Link href="/about">
-                        <li>
-                            <a>About</a>
-                        </li>
-                    </Link>
                     <Link href="/projects">
                         <li>
                             <a>Projects</a>
+                        </li>
+                    </Link>
+                    <Link href="/rules-info">
+                        <li>
+                            <a>Rules/Info</a>
+                        </li>
+                    </Link>
+                    <Link href="/staff">
+                        <li>
+                            <a>Staff Team</a>
                         </li>
                     </Link>
                     <Link href="/partners">
@@ -33,20 +37,14 @@ export default function Navbar() {
                             <a>Partners</a>
                         </li>
                     </Link>
-                    <Link href="/rules">
-                        <li>
-                            <a>Rules</a>
-                        </li>
-                    </Link>
-                    <Link href="/profile">
-                        <li>
-                            <a>Profile</a>
-                        </li>
-                    </Link>
                     {/**TODO: Make it display either Login/Profile */}
                 </ul>
                 <div>
-                    <a href="https://discord.gg/RkMCWWFSBg"><button className={`grow`}>Join Our Server</button></a>
+                    <Link href="https://discord.gg/RkMCWWFSBg">
+                        <button className={`grow  ${styles.joinButton}`}>
+                            Join
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

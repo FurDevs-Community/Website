@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import styles from "./../styles/Staff.module.css";
+import styles from "./Staff.module.css";
 import { IStaff } from "./StaffTeam";
 
 export default function Staff({

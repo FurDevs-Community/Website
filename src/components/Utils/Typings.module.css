@@ -1,0 +1,16 @@
+.cursor {
+    animation: fadeInOut 1s infinite;
+    font-size: 25px;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,9 +1,7 @@
 import React, { ReactElement } from "react";
-import styles from "./../styles/Footer.module.css";
+import styles from "./Footer.module.css";
 
-interface Props {}
-
-export default function Footer({}: Props): ReactElement {
+export default function Footer(): ReactElement {
     return (
         <div className={styles.footer}>
             <div>
