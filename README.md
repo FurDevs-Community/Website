@@ -1,4 +1,3 @@
-
 <div align="center">
 <h1> FurDevs Website</h1>
 <img alt="FurDevs-Logo" src="https://www.furdevs.com/images/logo.png" />

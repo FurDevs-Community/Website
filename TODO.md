@@ -1,3 +1,3 @@
 # TODO List
 
--   Change CSS -> SCSS
+- [x] Change CSS -> SCSS
