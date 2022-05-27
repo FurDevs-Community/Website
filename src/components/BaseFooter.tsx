@@ -1,7 +1,9 @@
+import styles from "@/styles/Layout.module.scss";
+
 export default function Footer() {
-  return(
+  return (
     <footer>
-      Footer component 2
+      <div id={styles.wrapper}>&copy; {new Date().getFullYear()} FurDevs, redesigned by @skepfusky.</div>
     </footer>
-  )
-};
+  );
+}
