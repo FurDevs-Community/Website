@@ -39,7 +39,7 @@ export default function Home() {
                     style={{ width: "67%", transform: "translate(-3.07rem, -0.5rem)" }}
                   />
                 </Parallax>
-                <Parallax speed={12}>
+                <Parallax speed={5}>
                   <img
                     src="/images/staff/ammy.png"
                     alt="avatar"
@@ -109,18 +109,11 @@ export default function Home() {
             </div>
           </Section>
           <Section header="Dev showcase" className="content-wrapper">
-            <div className={styles["items-carousel"]}>
-              <SectionItem />
-              <SectionItem />
-              <SectionItem />
-              <SectionItem />
-            </div>
+            <div className={styles["items-carousel"]}>ff</div>
           </Section>
           <Section>
             <div className="content-wrapper">
-              <h2 className="b-ui--header">
-                Need some help?
-              </h2>
+              <h2 className="b-ui--header">Need some help?</h2>
               aa
             </div>
           </Section>

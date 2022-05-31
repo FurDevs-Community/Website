@@ -29,8 +29,8 @@ export default function Footer() {
   return (
     <footer>
       <div id={styles.wrapper}>
-        <span>
-          &copy; 2020-{new Date().getFullYear()} FurDevs, redesigned by{" "}
+        <span id={styles.copyright}>
+          &copy; 2020-{new Date().getFullYear()} FurDevs, redesign and VFX by{" "}
           <a href="https://twitter.com/skepfuskyjs" target="_blank">
             @skepfuskyjs
           </a>

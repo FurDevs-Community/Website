@@ -18,10 +18,19 @@
   column-gap: 2.5rem;
 }
 
-/*** HEADER ***/
+/*** FOOTER ***/
 #socials {
   display: flex;
   justify-content: space-between;
   align-items: center;
   column-gap: 1.5rem;
+}
+
+#copyright a {
+  color: #b065f2;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

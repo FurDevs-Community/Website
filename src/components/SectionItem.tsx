@@ -17,32 +17,32 @@ export default function SectionItem() {
       <div className={styles["admin-socials"]}>
         <Link href="#">
           <a>
-            <FaIcon icon={faInstagram} />
+            <FaIcon icon={faInstagram} size="lg" />
             </a>
         </Link>
         <Link href="#">
           <a>
-            <FaIcon icon={faYoutube} />
+            <FaIcon icon={faYoutube} size="lg" />
             </a>
         </Link>
         <Link href="#">
           <a>
-            <FaIcon icon={faTwitter} />
+            <FaIcon icon={faTwitter} size="lg" />
             </a>
         </Link>
         <Link href="#">
           <a>
-            <FaIcon icon={faTwitch} />
+            <FaIcon icon={faTwitch} size="lg" />
             </a>
         </Link>
         <Link href="#">
           <a>
-            <FaIcon icon={faGithub} />
+            <FaIcon icon={faGithub} size="lg" />
             </a>
         </Link>
         <Link href="#">
           <a>
-            <FaIcon icon={faFacebook} />
+            <FaIcon icon={faFacebook} size="lg" />
             </a>
         </Link>
       </div>
