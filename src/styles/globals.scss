@@ -19,7 +19,7 @@ html {
   scroll-behavior: smooth;
 
   @media (prefers-reduced-motion: reduce) {
-    scroll-behavior: auto;
+    scroll-behavior: none;
   }
 }
 
@@ -51,6 +51,18 @@ header {
   left: 0;
   right: 0;
   z-index: 100;
+  transition: background 150ms ease;
+}
+
+.active {
+  background: rgba(#000, 32%);
+}
+
+@supports (backdrop-filter: blur(3px)) {
+  .active {
+    background: rgba(#000, 32%);
+    backdrop-filter: blur(3px);
+  }
 }
 
 .content-wrapper {
@@ -60,7 +72,7 @@ header {
 }
 
 section:nth-child(2) {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .hero-wrapper {

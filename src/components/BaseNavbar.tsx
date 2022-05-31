@@ -1,9 +1,24 @@
 import styles from "@/styles/Layout.module.scss";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
+  const [active, setActive] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isTop = window.scrollY < 69;
+      if (isTop !== active) {
+        setActive(isTop);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [active]);
+  
   return (
-    <header>
+    <header className={ active ? "" : "active" }>
       <div id={styles.wrapper}>
         <Link href="/" passHref>
           <a id={styles.logo}>FurDevs</a>
