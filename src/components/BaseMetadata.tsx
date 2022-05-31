@@ -44,6 +44,7 @@ export default function BaseMetadata({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       {/* <meta name="twitter:image" content="idk" /> */}
+      <meta name="twitter:url" content="https://furdevs.tech" />
     </Head>
   );
 }

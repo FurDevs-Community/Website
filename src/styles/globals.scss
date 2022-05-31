@@ -45,8 +45,28 @@ ul {
 }
 // #endregion
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
 .content-wrapper {
   padding: 0.5rem 2.5rem;
   margin: 0 auto;
   max-width: 1440px;
+}
+
+section:nth-child(2) {
+  overflow-x: hidden;
+}
+
+.hero-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
