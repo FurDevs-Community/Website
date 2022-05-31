@@ -8,16 +8,14 @@ export default function Navbar() {
         <Link href="/" passHref>
           <a id={styles.logo}>FurDevs</a>
         </Link>
-        <nav>
-          <ul id={styles["nav-items"]}>
-            <li>Server Rules</li>
-            <li>Staff</li>
-            <li>Dev Showcase</li>
-            <li>
-              <Link href="/appeals">Ban Appeals</Link>
-            </li>
-          </ul>
-        </nav>
+        <ul id={styles["nav-items"]} role="navigation">
+          <li><Link href="#server-rules"><a>Server Rules</a></Link></li>
+          <li><Link href="#staff"><a>Staff</a></Link></li>
+          <li><Link href="#dev-showcase"><a>Dev Showcase</a></Link></li>
+          <li>
+            <Link href="/appeals">Ban Appeals</Link>
+          </li>
+        </ul>
       </div>
     </header>
   );

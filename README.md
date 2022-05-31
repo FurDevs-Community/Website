@@ -11,8 +11,27 @@
 
 This is website is currently **under development**.
 
-Inital site design by Ozzy. UI design and VFX by skepfusky with the use of Adobe After Effects.
-
 ## About
 
 This is a website for [FurDevs, a Tech/Programming Discord Server for furries!](https://discord.gg/JABY6Htnqt)
+
+## Deploying the site locally
+
+Fetch or fork the repo, then install it with yarn (you can install it with npm
+too but yarn is strongly recommended)
+
+```sh
+yarn install
+```
+
+Open a dev server by
+
+```sh
+yarn install
+```
+
+Build and serve the production app locally
+
+```sh
+yarn build && yarn start
+```

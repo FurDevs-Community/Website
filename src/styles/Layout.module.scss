@@ -1,5 +1,3 @@
-@use "components" as *;
-
 #wrapper {
   display: flex;
   justify-content: space-between;
@@ -9,6 +7,7 @@
   max-width: 1440px;
 }
 
+/*** HEADER ***/
 #logo {
   font-size: 135%;
   font-weight: bold;
@@ -17,4 +16,12 @@
 #nav-items {
   display: flex;
   column-gap: 2.5rem;
+}
+
+/*** HEADER ***/
+#socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
 }
