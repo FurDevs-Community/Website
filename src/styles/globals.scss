@@ -58,7 +58,7 @@ header {
   background: rgba(#000, 32%);
 }
 
-@supports (backdrop-filter: blur(3px)) {
+@supports (backdrop-filter: blur(6px)) {
   .active {
     background: rgba(#000, 32%);
     backdrop-filter: blur(3px);
@@ -73,12 +73,4 @@ header {
 
 section:nth-child(2) {
   overflow: hidden;
-}
-
-.hero-wrapper {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }

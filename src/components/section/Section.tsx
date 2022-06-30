@@ -1,14 +1,12 @@
+import { ReactElement } from "react";
+import { SectionProps } from "src/utils/Interface";
+
 export default function Section({
   header,
   children,
   className,
   style = { width: "100%" },
-}: {
-  header?: string;
-  children: React.ReactNode;
-  className?: string;
-  style?: React.CSSProperties;
-}) {
+}: SectionProps) {
   return (
     <section className={className} style={style}>
       {header && (

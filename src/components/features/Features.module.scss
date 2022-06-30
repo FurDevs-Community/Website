@@ -1,0 +1,64 @@
+/*
+ * BubbleParallax.tsx
+ */ 
+
+.bubble {
+  &-container {
+    display: flex;
+    column-gap: 0.75rem;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  &-images {
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    row-gap: 1rem;
+    user-select: none;
+  }
+
+  &-list {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    > p {
+      text-align: center;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.65rem;
+    }
+  }
+}
+
+/******/
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  cursor: default;
+  background: darken(#8800ff, 18%);
+  transition: background 270ms ease, transform 270ms ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
+
+  &:hover {
+    background: darken(#8800ff, 12%);
+    transform: scale(1.02);
+  }
+
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+}

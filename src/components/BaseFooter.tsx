@@ -1,36 +1,13 @@
 import styles from "@/styles/Layout.module.scss";
 import { FontAwesomeIcon as FaIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord, faGithub, faTwitter, faRedditAlien } from "@fortawesome/free-brands-svg-icons";
+import { socials } from "src/utils/Content";
 
 export default function Footer() {
-  const socials = [
-    {
-      name: "Discord",
-      url: "https://discord.gg/RkMCWWFSBg",
-      icon: faDiscord,
-    },
-    {
-      name: "GitHub",
-      url: "https://github.com/FurDevs",
-      icon: faGithub,
-    },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/FurDevs",
-      icon: faTwitter,
-    },
-    {
-      name: "Reddit",
-      url: "https://reddit.com/r/FurDevs",
-      icon: faRedditAlien,
-    },
-  ];
-
   return (
     <footer>
       <div id={styles.wrapper}>
         <span id={styles.copyright}>
-          &copy; 2020-{new Date().getFullYear()} FurDevs, redesign and VFX by{" "}
+          &copy; 2020-{new Date().getFullYear()} FurDevs, redesigned by{" "}
           <a href="https://twitter.com/skepfuskyjs" target="_blank">
             @skepfuskyjs
           </a>
