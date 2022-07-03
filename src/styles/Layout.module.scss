@@ -1,0 +1,36 @@
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+/*** HEADER ***/
+#logo {
+  font-size: 135%;
+  font-weight: bold;
+}
+
+#nav-items {
+  display: flex;
+  column-gap: 2.5rem;
+}
+
+/*** FOOTER ***/
+#socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+#copyright a {
+  color: #b065f2;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

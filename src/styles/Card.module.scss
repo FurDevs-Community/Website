@@ -1,0 +1,22 @@
+.item-container {
+  background-color: var(--c-light-purple);
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  row-gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    border-radius: 50%;
+    width: 10rem;
+  }
+}
+
+.admin-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}

@@ -1,0 +1,27 @@
+/*! Biro UI Design System | MIT - created by skepfusky */
+.b-ui {
+  &--header {
+    width: fit-content;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 45%;
+      transform: translateY(-0.22rem);
+      z-index: -1;
+      background-color: darken(orchid, 12%);
+    }
+  }
+
+  &--emphasis {
+    padding: 0.22rem 0.75rem;
+    border-radius: 0.33rem;
+    font-size: 90%;
+    background-color: darken(#8C7898, 4%);
+  }
+}

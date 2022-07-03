@@ -1,32 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@use "components" as *;
+
+// #region Base styles
+/********************
+ * BASE STYLES
+ ********************/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: none;
+  }
 }
 
 body {
-    font-family: "Poppins", monospace;
-    background-color: rgb(19, 19, 19);
-    color: white;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--c-bg);
+  color: white;
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
-.container {
-    margin: 0 75px;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.center {
-    text-align: center;
+ul {
+  list-style: none;
+}
+// #endregion
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: background 150ms ease;
 }
 
-.grow {
-    transition: all 0.3s ease-in-out;
+.active {
+  background: rgba(#000, 32%);
 }
-.grow:hover {
-    transform: scale(1.2);
+
+@supports (backdrop-filter: blur(6px)) {
+  .active {
+    background: rgba(#000, 32%);
+    backdrop-filter: blur(3px);
+  }
+}
+
+.content-wrapper {
+  padding: 0.5rem 2.5rem;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+section:nth-child(2) {
+  overflow: hidden;
 }
